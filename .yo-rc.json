@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.7.1",
+    "libraryName": "spfx-peoplepicker-sample",
+    "libraryId": "a5bd2e85-864a-4f2f-a3a2-52734b5ecc28",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

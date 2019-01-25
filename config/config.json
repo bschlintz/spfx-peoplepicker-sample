@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "custom-people-picker-control-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customPeoplePickerControlWebpart/CustomPeoplePickerControlWebpartWebPart.js",
+          "manifest": "./src/webparts/customPeoplePickerControlWebpart/CustomPeoplePickerControlWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ControlStrings": "lib/loc/{locale}.js"
+  }
+}
